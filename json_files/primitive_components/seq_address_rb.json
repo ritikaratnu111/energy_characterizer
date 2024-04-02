@@ -1,0 +1,18 @@
+{
+  "about": "seq_address_rb",
+  "signals": ["seq_address_rb"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.0007253",
+              "switching": "0",
+              "leakage": "0.00030601"
+          },
+          "inactive": {
+              "internal": "0.0007253",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

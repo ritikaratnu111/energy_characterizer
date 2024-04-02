@@ -1,0 +1,161 @@
+{
+    "pc_slots": "1",
+    "segment_values": {
+        ".execution_cycle": 1,
+        ".output_register": 1,
+        ".reductive": 1,
+        "acc_clear": 127,
+        "control": 2,
+        "io_change": 0,
+        "mode": 10,
+        "unused_0": 2
+    },
+    "components": [
+        "sequencer",
+        "dpu",
+        "swb",
+        "shadow_reg",
+        "instr_inp_out_reg",
+        "seq_address_cb",
+        "seq_address_rb",
+        "CTS",
+        "data_selector",
+        "dimarch_data_in_out",
+        "dimarch_data_out",
+        "instr_inp",
+        "ext_v_input_bus_in",
+        "rst_n",
+        "sel_r_ext",
+        "valid_bot",
+        "immediate",
+        "data_in_this",
+        "seq_cond_status",
+        "address_assign",
+        "rf_block",
+        "MTRF_cell",
+        "SILEGO_cell",
+        "others"
+    ],
+    "equations": {
+       "sequencer":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "dpu":{
+            "mode": "mode",
+            "start": "offset",
+            "end": "offset + dpu_delay * clock_period + 3 * clock_period"
+        },
+        "swb":{
+            "mode": "running",
+            "start": "offset + 1 * clock_period",
+            "end": "offset + 3* clock_period + swb_delay * clock_period"
+        },
+          "shadow_reg":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 2 * clock_period"
+        },
+          "CTS":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "instr_inp_out_reg":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+        "rf_block":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "seq_address_rb":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "seq_address_cb":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "data_selector":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "dimarch_data_in_out":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "dimarch_data_out":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "instr_inp":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "ext_v_input_bus_in":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+          "rst_n":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "sel_r_ext":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "valid_bot":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "immediate":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "data_in_this":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "seq_cond_status":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+          "address_assign":{
+            "mode": "running",
+              "start": "offset",
+              "end": "offset + 1 * clock_period"
+        },
+        "MTRF_cell":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "SILEGO_cell":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        },
+        "others":{
+            "mode": "running",
+            "start": "offset",
+            "end": "offset + 1 * clock_period"
+        }
+   }
+}

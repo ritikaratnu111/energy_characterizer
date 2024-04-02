@@ -1,0 +1,11 @@
+{
+    "ROUTE"     : "ROUTE.json",
+    "SRAM"      : "SRAM.json",
+    "REFI"      : "REFI.json",
+    "WAIT"      : "WAIT.json",
+    "SWB"       : "SWB.json",
+    "LOOP"      : "LOOP.json",
+    "DPU"       : "DPU.json",
+    "RACCU"     : "RACCU.json",
+    "HALT"      : "HALT.json"
+}

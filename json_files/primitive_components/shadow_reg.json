@@ -1,0 +1,18 @@
+{
+  "about": "shadow_reg",
+  "signals": ["shadowReg"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.0348968",
+              "switching": "0",
+              "leakage": "0.026341576"
+          },
+          "inactive": {
+              "internal": "0.0348968",
+              "switching": "0",
+              "leakage": "0.026341576"
+          }
+        }
+  }
+}

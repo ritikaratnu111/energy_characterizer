@@ -1,0 +1,16 @@
+{
+    "list": [
+            "Silago_top_l_corner", 
+            "Silago_bot_l_corner", 
+            "Silago_top",
+            "Silago_bot",
+            "Silago_top_r_corner",
+            "Silago_bot_r_corner",
+            "DiMArch_top_l_corner", 
+            "DiMArch_bot_l_corner", 
+            "DiMArch_top",
+            "DiMArch_bot",
+            "DiMArch_top_r_corner",
+            "DiMArch_bot_r_corner"
+            ]
+}

@@ -1,0 +1,22 @@
+{
+  "about": "sequencer",
+  "signals": ["seq_gen", 
+              "instr_start_w", 
+              "dimarch_mode", 
+              "instr_ld", 
+              "dpu_acc_clear_rst_w"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0.590278056375"
+          },
+          "inactive": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "about": "rst_n",
+  "signals": ["rst_n"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0.00150266"
+          },
+          "inactive": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

@@ -1,0 +1,105 @@
+{
+    "ROUTE": {
+      "direction": 0,
+      "horizontal_dir": 1,
+      "horizontal_hops": 0,
+      "select_drra_row": 0,
+      "vertical_dir": 0,
+      "vertical_hops": 0
+    },
+    "SRAM": {
+      "hops": 0,
+      "init_addr": 0,
+      "init_addr_sd": 0,
+      "init_delay": 0,
+      "init_delay_sd": 0,
+      "l1_delay": 0,
+      "l1_delay_sd": 0,
+      "l1_iter": 0,
+      "l1_iter_sd": 0,
+      "l1_step": 0,
+      "l1_step_sd": 0,
+      "l2_delay": 0,
+      "l2_delay_sd": 0,
+      "l2_iter": 0,
+      "l2_iter_sd": 0,
+      "l2_step": 0,
+      "l2_step_sd": 0,
+      "rw": 0
+    },
+    "REFI": {
+        "compress": 0,
+        "dimarch": 1,
+        "extra": 2,
+        "init_addr": 0,
+        "init_addr_sd": 0,
+        "init_delay": 4,
+        "init_delay_sd": 0,
+        "l1_delay": 0,
+        "l1_delay_ext": 0,
+        "l1_delay_sd": 0,
+        "l1_iter": 0,
+        "l1_iter_sd": 0,
+        "l1_step": 1,
+        "l1_step_sd": 0,
+        "l1_step_sign": 0,
+        "l2_delay": 0,
+        "l2_delay_sd": 0,
+        "l2_iter": 0,
+        "l2_iter_ext": 0,
+        "l2_iter_sd": 0,
+        "l2_step": 0,
+        "l2_step_ext": 0,
+        "port_no": 0,
+        "unused_0": 2,
+        "unused_1": 3,
+        "unused_2": 0,
+        "unused_3": 0
+    },
+    "SWB": {
+        "hb_index": 2,
+        "send_to_other_row": 0,
+        "src_block": 0,
+        "src_port": 2,
+        "src_row": 0,
+        "unused0": 1,
+        "v_index": 0
+    },
+    "WAIT": {
+        "cycle": 0,
+        "cycle_sd": 0
+    },
+    "RACCU": {
+        "mode": 1,
+        "operand1": 15,
+        "operand1_sd": 1,
+        "operand2": 0,
+        "operand2_sd": 0,
+        "result": 1
+    },
+    "DPU": {
+        ".execution_cycle": 1,
+        ".output_register": 1,
+        ".reductive": 1,
+        "acc_clear": 127,
+        "control": 2,
+        "io_change": 0,
+        "mode": 10,
+        "unused_0": 2
+    },
+    "LOOP": {
+        ".loop_duration": 654,
+        "endpc": 43,
+        "extra": 1,
+        "iter": 8,
+        "iter_sd": 0,
+        "link": 0,
+        "loopid": 0,
+        "start": 1,
+        "start_sd": 0,
+        "step": 2,
+        "step_sd": 0
+    },
+    "HALT": {
+    }
+}

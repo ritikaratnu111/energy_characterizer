@@ -1,0 +1,18 @@
+{
+  "about": "dimarch_data_in_out_reg",
+  "signals": ["dimarch_data_in_out_reg"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.0930804",
+              "switching": "0",
+              "leakage": "0.01894144"
+          },
+          "inactive": {
+              "internal": "0.0930804",
+              "switching": "0",
+              "leakage": "0.01894144"
+          }
+        }
+  }
+}

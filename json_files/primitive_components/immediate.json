@@ -1,0 +1,18 @@
+{
+  "about": "immediate",
+  "signals": ["immediate"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          },
+          "inactive": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "about": "regfile",
+  "signals": ["reg_top", 
+              "rf_out_to_dimarch", 
+              "reg_port_type"],
+  "mode": {
+      "running": {
+          "inactive": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          },
+          "active": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          }
+      },
+      "r0": {
+          "inactive": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          },
+          "active": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          }
+      },
+      "r1": {
+          "inactive": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          },
+          "active": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          }
+      },
+      "w0": {
+          "inactive": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          },
+          "active": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          }
+      },
+      "w1": {
+          "inactive": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          },
+          "active": {
+              "internal": "0.7026771",
+              "switching": "0",
+              "leakage": "0.625175001212"
+          }
+      }
+  }
+}

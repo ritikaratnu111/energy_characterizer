@@ -1,0 +1,18 @@
+{
+  "about": "data_in_this",
+  "signals": ["data_in_this"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          },
+          "inactive": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

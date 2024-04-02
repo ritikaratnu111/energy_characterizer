@@ -1,0 +1,18 @@
+{
+  "about": "seq_cond_status",
+  "signals": ["seq_cond_status"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          },
+          "inactive": {
+              "internal": "0",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

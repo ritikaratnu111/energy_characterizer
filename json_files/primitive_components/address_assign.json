@@ -1,0 +1,18 @@
+{
+  "about": "address assign in the top tile",
+  "signals": ["u_addres_assign"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.0021742",
+              "switching": "0",
+              "leakage": "0.001511671"
+          },
+          "inactive": {
+              "internal": "0.0021742",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

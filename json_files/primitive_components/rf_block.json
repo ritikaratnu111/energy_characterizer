@@ -1,0 +1,18 @@
+{
+  "about": "rf_block, par of DPU instr",
+  "signals": ["rf_block"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.000727",
+              "switching": "0",
+              "leakage": "0.0003334"
+          },
+          "inactive": {
+              "internal": "0.000727",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

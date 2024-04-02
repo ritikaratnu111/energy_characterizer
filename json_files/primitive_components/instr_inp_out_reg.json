@@ -1,0 +1,18 @@
+{
+  "about": "instr_inp_out_reg",
+  "signals": ["instr_inp_out_reg"],
+  "mode": {
+      "running": {
+          "active": {
+              "internal": "0.0098329",
+              "switching": "0",
+              "leakage": "0.00199773"
+          },
+          "inactive": {
+              "internal": "0.0098329",
+              "switching": "0",
+              "leakage": "0"
+          }
+        }
+  }
+}

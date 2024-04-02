@@ -1,0 +1,107 @@
+{
+  "about": "dpu",
+  "signals": ["dpu_gen", 
+              "dpu_in", 
+              "h_bus_reg", 
+              "h_bus_dpu", 
+              "dpu_silego_interface"],
+  "mode": {
+      "running":{
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          }
+      },
+      "1": {
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "subt":{
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "subt_abs": {
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "mult":{
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "mult_const": {
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "mac": {
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      },
+      "axpy": {
+          "inactive": {
+              "internal": "0.1719328",
+              "switching": "0",
+              "leakage": "0.835371905465"
+          },
+          "active": {
+              "internal": 0,
+              "switching": 0,
+              "leakage": 0
+          }
+      }
+
+  }
+}
